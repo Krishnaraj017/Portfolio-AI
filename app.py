@@ -84,7 +84,7 @@ async def clear_session(session_id: str):
 
 
 
-if __name__ == "__main__":
-    # Set environment variables if not already set
+# if __name__ == "__main__":
+#     # Set environment variables if not already set
 
-    uvicorn.run(app, port=8000)
+#     uvicorn.run(app, port=8000)
